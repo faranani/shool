@@ -1,16 +1,16 @@
 <ion-header no-border>
   <ion-toolbar>
 
-    
+
     <div class="container-fluid mt-1 p-4 d-flex justify-content-between navbar navbar-expand-lg navbar-light bg-light">
       <ion-title>LOGO</ion-title>
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         <button class="btn btn-outline-info" type="submit">Dashboard</button>
         <button class="btn btn-outline-danger" type="submit">Logout</button>
       </div>
-  </div>
+    </div>
 
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid d-flex justify-content-end ">
       <div class="logo">
         <a class="navbar-brand align-items-start" href="#">Navbar</a>
@@ -25,7 +25,7 @@
       </div>
     </div>
   </nav> -->
-</ion-toolbar>
+  </ion-toolbar>
 
 </ion-header>
 <!-- <table >
@@ -69,52 +69,46 @@
 
 <ion-content>
 
-  <div class="container mt-3 border p-2 " style="background-color: #cae9ff;">
-    <div class="row" >
-      <div class="col-6 col-sm-3 mt-3">
-        <p>First Name:</p>
+  <ion-card style="background-color: #cae9ff;">
+    <div class="p-2 " >
+      <div class="row">
+        <div class="col">
+          <p>Card Number:</p>
+        </div>
+        <div class="col">
+          <input class="rounded ms-5 mx-auto mt-3 " type="text" required>
+        </div>
+
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+
+        <div class="col">
+          Cvv Number:
+        </div>
+        <div class="col">
+          <input class="rounded ms-5 mx-auto mt-3 " type="text" required>
+        </div>
+
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+
+        <div class="col">
+          Expiry Date:
+        </div>
+        <div class="col">
+          <input class="rounded ms-5 mx-auto mt-3 " type="text" required>
+        </div>
+
+
       </div>
-      <div class="col-6 col-sm-3">
-        <input class="rounded ms-5 mx-auto mt-3 " type="text" required>
-      </div>
-  
-      <!-- Force next columns to break to new line -->
-      <div class="w-100"></div>
-  
-      <div class="col-6 col-sm-3 mt-3">
-        Qualification:
     </div>
-      <div class="col-6 col-sm-3">
-        <input class="rounded ms-5 mx-auto mt-3 " type="text" required>
-      </div>
-
-       <!-- Force next columns to break to new line -->
-       <div class="w-100"></div>
-  
-       <div class="col-6 col-sm-3 mt-3">
-         Ratings:
-     </div>
-       <div class="col-6 col-sm-3">
-         <input class="rounded ms-5 mx-auto mt-3 " type="text" required>
-       </div>
-
-       <!-- Force next columns to break to new line -->
-       <div class="w-100"></div>
-  
-       <div class="col-6 col-sm-3 mt-3">
-         Ratings per hour:
-     </div>
-       <div class="col-6 col-sm-3">
-         <input class="rounded ms-5 mx-auto mt-3 " type="text" required>
-       </div>
-    </div>
-  </div>
-
-  
 
 
- 
+  </ion-card>
+
+
+
+
+
+
 </ion-content>
-
-
-
